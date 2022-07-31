@@ -8,7 +8,7 @@ const mobileMenu = document.querySelector('.mobile-menu');
 /* product-detail */
 
 const navbarShoppingCart = document.querySelector('.navbar-shopping-cart');
-const productDetail = document.querySelector('.product-detail');
+const productDetail = document.querySelector('#shoppingCartContainer');
 
 
 /* desktop menu */
@@ -52,6 +52,8 @@ function toggleNavbarShoppingCart(){
     
     productDetail.classList.toggle('inactive');
 }
+
+
 
 function dataList(){
         const productList = [];
